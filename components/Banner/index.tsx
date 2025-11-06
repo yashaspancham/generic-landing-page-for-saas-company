@@ -15,7 +15,7 @@ const BannerSection = () => {
         </p>
         <p className="font-normal text-lg">{paragraphText}</p>
 
-        <BlueButton text={"Try Whitepace free ->"} extraCSS="mt-[60px]" />
+        <BlueButton text={"Try Whitepace free ->"} extraCSS="mt-[60px] w-[222px] h-[63px]" />
       </div>
       <div className="bg-[#C4DEFD] 2xl:w-[824px] 2xl:h-[549px] xl:w-[685px] xl:h-[456px] lg:w-[526px] lg:h-[350.45px] sm:w-[551px] sm:h-[367px] w-[286px] h-[191px]" />
     </div>
