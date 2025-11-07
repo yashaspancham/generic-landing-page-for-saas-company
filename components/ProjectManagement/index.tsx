@@ -7,7 +7,8 @@ const ProjectManagement = () => {
     "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.";
   return (
     <div className="pt-[140px] flex items-center justify-center text-[#212529]">
-      <div className="flex justify-center max-lg:flex-col max-lg:items-center [padding-left:clamp(8px,2vw,24px)] [padding-right:clamp(8px,2vw,24px)]">
+      <div className="flex max-lg:flex-col justify-evenly items-center gap-5 px-8">
+        {/* [padding-left:clamp(8px,2vw,24px)] [padding-right:clamp(8px,2vw,24px)] */}
         <div className="flex flex-col 2xl:w-[640px] xl:w-[540px] lg:w-[440px] w-auto max-lg:text-center">
           <p className="font-bold 2xl:text-7xl lg:text-[64px] sm:text-[54px] text-4xl ">
             {titleText1}{" "}
