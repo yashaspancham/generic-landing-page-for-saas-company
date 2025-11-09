@@ -7,7 +7,7 @@ const YourData = () => {
     "The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.";
   return (
     <div className="xl:py-[169px] sm:py-[140px] py-[80px] text-[#212529] flex max-lg:flex-col-reverse justify-center items-center max-lg:px-[20px]">
-      <div className="flex flex-col justify-center max-lg:items-center 2xl:w-[800px] xl:w-[295px] lg:w-[526px] w-auto max-lg:mt-[100px]">
+      <div className="flex flex-col justify-center max-lg:items-center 2xl:w-[800px] xl:w-[695px] lg:w-[526px] w-auto max-lg:mt-[100px]">
         <p className="font-bold xl:text-7xl lg:text-[64px] sm:text-[54px] text-[36px]">
           {titleText1}
           <span

@@ -7,6 +7,7 @@ import ChooseThePlan from "@/components/ChooseThePlan";
 import YourWork from "@/components/YourWork";
 import YourData from "@/components/YourData";
 import Oursponsors from "@/components/OurSponsors";
+import WorkWithYour from "@/components/WorkWithYour";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <YourWork/>
       <YourData/>
       <Oursponsors/>
+      <WorkWithYour/>
     </main>
   );
 }
