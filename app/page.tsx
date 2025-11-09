@@ -5,6 +5,7 @@ import UseAsExtension from "@/components/UseAsExtension";
 import CustamiseToYourNeeds from "@/components/CustomiseToYourNeeds";
 import ChooseThePlan from "@/components/ChooseThePlan";
 import YourWork from "@/components/YourWork";
+import YourData from "@/components/YourData";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CustamiseToYourNeeds/>
       <ChooseThePlan/>
       <YourWork/>
+      <YourData/>
     </main>
   );
 }
