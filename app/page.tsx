@@ -6,6 +6,7 @@ import CustamiseToYourNeeds from "@/components/CustomiseToYourNeeds";
 import ChooseThePlan from "@/components/ChooseThePlan";
 import YourWork from "@/components/YourWork";
 import YourData from "@/components/YourData";
+import Oursponsors from "@/components/OurSponsors";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <ChooseThePlan/>
       <YourWork/>
       <YourData/>
+      <Oursponsors/>
     </main>
   );
 }
