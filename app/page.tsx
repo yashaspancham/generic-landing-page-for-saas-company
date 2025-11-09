@@ -1,8 +1,10 @@
 import BannerSection from "@/components/Banner";
-import WorkTogether from "@/components/Banner/WorkTogether";
+import WorkTogether from "@/components/WorkTogether";
 import ProjectManagement from "@/components/ProjectManagement";
 import UseAsExtension from "@/components/UseAsExtension";
 import CustamiseToYourNeeds from "@/components/CustomiseToYourNeeds";
+import ChooseThePlan from "@/components/ChooseThePlan";
+import YourWork from "@/components/YourWork";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <WorkTogether/>
       <UseAsExtension/>
       <CustamiseToYourNeeds/>
+      <ChooseThePlan/>
+      <YourWork/>
     </main>
   );
 }
