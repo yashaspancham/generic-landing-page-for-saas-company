@@ -6,8 +6,8 @@ const WorkTogether = () => {
   const paragraphText =
     "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.";
   return (
-    <div className="pt-[100px] pb-[140px] flex max-lg:flex-col-reverse justify-evenly items-center gap-10 xl:gap-20 px-8">
-      <img src={"/images/WorkTogeteher_img.png"} alt="WorkTogetherImage" className="lg:w-[528px] xl:w-[542px] 2xl:w-[710px]"/>
+    <div className="pt-[100px] pb-[140px] flex max-lg:flex-col-reverse justify-evenly items-center gap-10 xl:gap-20 px-6 mx-10">
+      <img src={"/images/WorkTogeteher_img.png"} alt="WorkTogetherImage" className="lg:w-[500px] xl:w-[542px] 2xl:w-[710px] max-lg:pt-[100px]"/>
       <div className="text-[#212529] 2xl:w-[670px] xl:w-[633px] lg-w-[527px] w-auto flex flex-col items-start max-lg:items-center">
         <p className="font-bold xl:text-7xl lg:text-[64px] sm:text-[54px] text-4xl mt-6">
           {titleText1}{" "}

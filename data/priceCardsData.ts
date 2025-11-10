@@ -1,0 +1,47 @@
+export const cardsData = [
+    {
+        id: 0,
+        title: "Free",
+        cost: "$0",
+        description: "Capture ideas and find them quickly",
+        bulletPoints: [
+            "Sync unlimited devices",
+            "10 GB monthly uploads",
+            "200 MB max. note size",
+            "Customize Home dashboard and access extra widgets",
+            "Connect primary Google Calendar account",
+            "Add due dates, reminders, and notifications to your tasks",
+        ],
+        imgSrc: "/icons/bulletIconBlack.png",
+    },
+    {
+        id: 1,
+        title: "Personal",
+        cost: "$11.99",
+        description: "Keep home and family on track <br/> <br/>",
+        bulletPoints: [
+            "Sync unlimited devices",
+            "10 GB monthly uploads",
+            "200 MB max. note size",
+            "Customize Home dashboard and access extra widgets",
+            "Connect primary Google Calendar account",
+            "Add due dates, reminders, and notifications to your tasks",
+        ],
+        imgSrc: "/icons/bulletIconGold.png",
+    },
+    {
+        id: 2,
+        title: "Organization",
+        cost: "$49.99",
+        description: "Capture ideas and find them quickly",
+        bulletPoints: [
+            "Sync unlimited devices",
+            "10 GB monthly uploads",
+            "200 MB max. note size",
+            "Customize Home dashboard and access extra widgets",
+            "Connect primary Google Calendar account",
+            "Add due dates, reminders, and notifications to your tasks",
+        ],
+        imgSrc: "/icons/bulletIconBlack.png",
+    },
+];
