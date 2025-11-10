@@ -20,7 +20,7 @@ const YourData = () => {
         <p className="font-normal text-lg mt-[24px] text-center">{paragraphText}</p>
         <BlueButton
           text="Read More ->"
-          extraCSS="lg:w-[197px] lg:h-[63px] sm:w-[184px] sm:h-[59px] w-[193px] h-[70px] flex items-center justify-center mt-[60px]"
+          extraCSS="lg:w-[197px] lg:h-[63px] sm:w-[184px] sm:h-[59px] w-[193px] h-[70px] items-center justify-center mt-[60px]"
         />
       </div>
       <img src={"/images/YourData.png"} alt="100% your data section image" className="xl:w-[681px] lg:w-[562px] sm:w-[512px] w-auto"/>

@@ -13,11 +13,11 @@ const WorkWithYour = () => {
         className="lg:w-[582px] w-auto"
       />
       <div className="text-white 2xl:w-[798px] xl:w-[694px] lg:w-[460px] w-auto px-[20px] max-lg:text-center max-lg:flex max-lg:flex-col max-lg:items-center">
-        <p className="font-bold text-[64px] sm:text-[54px] text-[36px]">
+        <p className="font-bold lg:text-[64px] sm:text-[54px] text-[36px]">
           {titleText}
         </p>
         <p className="font-normal text-lg mt-[24px]">{paragraphText}</p>
-        <BlueButton text="Read more ->" extraCSS="lg:w-[194px] sm:h-[63px] sm:w-[203px] w-[193px] h-[70px] mt-[60px]"/>
+        <BlueButton text="Read more ->" extraCSS="lg:w-[194px] sm:h-[63px] sm:w-[203px] w-[193px] h-[70px] mt-[60px] flex items-center justify-center"/>
       </div>
     </section>
   );
