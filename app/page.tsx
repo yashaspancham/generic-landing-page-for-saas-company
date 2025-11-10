@@ -9,6 +9,7 @@ import YourData from "@/components/YourData";
 import Oursponsors from "@/components/OurSponsors";
 import WorkWithYour from "@/components/WorkWithYour";
 import ClientsSay from "@/components/ClientsSay";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Oursponsors/>
       <WorkWithYour/>
       <ClientsSay/>
+      <Footer/>
     </main>
   );
 }
