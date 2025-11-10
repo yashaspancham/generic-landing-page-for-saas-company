@@ -10,11 +10,13 @@ import Oursponsors from "@/components/OurSponsors";
 import WorkWithYour from "@/components/WorkWithYour";
 import ClientsSay from "@/components/ClientsSay";
 import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
     <main className="">
       {/* TODO::Aligh all the sections */}
+      <NavBar/>
       <BannerSection />
       <ProjectManagement />
       <WorkTogether/>

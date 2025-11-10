@@ -73,11 +73,14 @@ const Footer = () => {
             <p className="font-normal text-base">Media kit</p>
           </div>
           <div className="flex flex-col items-center gap-[16px] lg:w-[300px] ">
-            <p className="font-bold text-[28px] w-[200px]">Try It Today</p>
+            <p className="font-bold text-[28px] w-[200px] lg:self-start">Try It Today</p>
             <p className="font-normal text-base">
               Get started for free. Add your whole team as your needs grow.
             </p>
-            <BlueButton text="Start today ->" extraCSS="h-[53px] w-[183px] items-center justify-center text-[16px]"/>
+            <BlueButton
+              text="Start today ->"
+              extraCSS="h-[53px] w-[183px] lg:self-start items-center justify-center text-[16px]"
+            />
           </div>
         </div>
 
@@ -101,7 +104,7 @@ const Footer = () => {
             <p>Status</p>
             <p>©2021 Whitepace LLC.</p>
           </div>
-          <img src={"/icons/SocialWhiteIcon.png"} alt="Socal Icons alt"/>
+          <img src={"/icons/SocialWhiteIcon.png"} alt="Socal Icons alt" />
         </div>
       </div>
     </div>

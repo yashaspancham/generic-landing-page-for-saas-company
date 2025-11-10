@@ -24,12 +24,13 @@ const ClientsCards = () => {
         }}
         modules={[Pagination]}
         className="flex items-center justify-between 
-        2xl:w-[1481px] xl:w-[1376px] lg:w-[1088px] w-full
+        w-full max-w-[1479px]
          [&_.swiper-pagination]:mt-10"
         breakpoints={{
           0: { slidesPerView: 1, centeredSlides: false },
           768: { slidesPerView: 1.6, centeredSlides: false },
-          1024: { slidesPerView: 3, centeredSlides: false },
+          1024: { slidesPerView: 2.2, centeredSlides: false },
+          1440: { slidesPerView: 3, centeredSlides: false },
         }}
       >
         {clientsSayData.map((clientSay) => (
