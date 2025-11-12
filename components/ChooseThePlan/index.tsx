@@ -1,3 +1,4 @@
+import GoldenUnderline from "../GoldenUnderline";
 import PriceOptions from "../PriceOptions";
 
 const ChooseThePlan = () => {
@@ -11,18 +12,13 @@ const ChooseThePlan = () => {
       <div className="flex flex-col">
         <p className="font-bold xl:text-7xl lg:text-[64px] sm:text-[54px] text-[36px] text-center">
           {titleText1}
-          <span
-            className="inline-block leading-[1.7] bg-[url('/images/project_management_underline.png')] bg-no-repeat bg-[length:100%_30px]
-             2xl:bg-[position:0_88px] xl:bg-[position:0_72px] lg:bg-[position:0_75px] sm:bg-[position:0_64px] bg-[position:0_44px]"
-          >
-            {titleText2}
-          </span>
+          <GoldenUnderline text={titleText2} />
         </p>
         <p className="font-normal text-lg text-center mt-[24px] max-w-[1481px]">
           {paragraphText}
         </p>
       </div>
-        <PriceOptions />
+      <PriceOptions />
     </div>
   );
 };

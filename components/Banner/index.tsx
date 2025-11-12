@@ -5,7 +5,7 @@ const BannerSection = () => {
     "Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks";
   return (
     <div className="bg-[url('/images/TopSection.png')] bg-cover bg-center h-screen flex max-lg:flex-col items-center justify-center max-lg:px-4">
-      <div className="text-white 2xl:w-[656px] xl:w-[691px] lg:w-[562px] w-auto max-lg:text-center flex flex-col items-start max-lg:items-center">
+      <div className="text-white 2xl:w-[656px]  lg:w-[562px] w-auto max-lg:text-center flex flex-col items-start max-lg:items-center">
         <p
           className={`mt-6 font-bold text-[36px] md:text-[54px] xl:text-[64px] stroke-text [text-shadow:0px_4px_4px_#00000040]`}
         >

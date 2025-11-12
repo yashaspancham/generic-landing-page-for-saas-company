@@ -1,4 +1,5 @@
 import BlueButton from "@/components/blueButton";
+import GoldenUnderline from "../GoldenUnderline";
 
 const WorkTogether = () => {
   const titleText1 = "Work ";
@@ -14,13 +15,7 @@ const WorkTogether = () => {
       />
       <div className="text-[#212529] 2xl:w-[670px] xl:w-[633px] lg-w-[527px] w-auto flex flex-col items-start max-lg:items-center">
         <p className="font-bold xl:text-7xl lg:text-[64px] sm:text-[54px] text-4xl mt-6">
-          {titleText1}{" "}
-          <span
-            className="inline-block leading-[1.7] bg-[url('/images/project_management_underline.png')] bg-no-repeat bg-[length:100%_30px]
-             2xl:bg-[position:0_88px] xl:bg-[position:0_72px] lg:bg-[position:0_75px] sm:bg-[position:0_64px] bg-[position:0_44px]"
-          >
-            {titleText2}
-          </span>
+          {titleText1} <GoldenUnderline text={titleText2} />
         </p>
         <p className="font-normal text-lg">{paragraphText}</p>
         <BlueButton
