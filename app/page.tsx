@@ -15,7 +15,6 @@ import NavBar from "@/components/NavBar";
 export default function Home() {
   return (
     <main className="">
-      {/* TODO::Aligh all the sections */}
       <NavBar/>
       <BannerSection />
       <ProjectManagement />

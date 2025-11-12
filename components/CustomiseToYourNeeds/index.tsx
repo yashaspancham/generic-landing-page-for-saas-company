@@ -20,7 +20,7 @@ const CustomiseToYourNeeds = () => {
           </span>
         </p>
         <p className="font-normal text-lg mt-[24px]">{paragraphText1}</p>
-        <BlueButton text="Let's Go ->" extraCSS="mt-[32px]" />
+        <BlueButton text="Let's Go ->" extraCSS="mt-[32px] w-[171px] h-[63px] flex items-center justify-center" />
       </div>
     </div>
   );

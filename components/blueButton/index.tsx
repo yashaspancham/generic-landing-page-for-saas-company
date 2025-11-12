@@ -6,7 +6,7 @@ interface BlueButtonProps {
 const BlueButton = ({ extraCSS,text }: BlueButtonProps) => {
   return (
     <button
-      className={`flex gap-2 p-5 rounded-lg text-white bg-[#4F9CF9] ${extraCSS}`}
+      className={`flex gap-2 rounded-lg text-white bg-[#4F9CF9] ${extraCSS}`}
     >
       <p className="font-medium text-lg">{text}</p>
     </button>

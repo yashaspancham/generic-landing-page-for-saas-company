@@ -27,9 +27,9 @@ const ClientsCards = () => {
         w-full max-w-[1479px]
          [&_.swiper-pagination]:mt-10"
         breakpoints={{
-          0: { slidesPerView: 1, centeredSlides: false },
-          768: { slidesPerView: 1.6, centeredSlides: false },
-          1024: { slidesPerView: 2.2, centeredSlides: false },
+          0: { slidesPerView: 1, centeredSlides: true },
+          768: { slidesPerView: 1.7, centeredSlides: true },
+          1024: { slidesPerView: 2.2, centeredSlides: true },
           1440: { slidesPerView: 3, centeredSlides: false },
         }}
       >
