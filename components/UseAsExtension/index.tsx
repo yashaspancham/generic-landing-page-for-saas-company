@@ -1,4 +1,5 @@
 import BlueButton from "../blueButton";
+import GoldenUnderline from "../GoldenUnderline";
 
 const UseAsExtension = () => {
   const titleText1 = "Use as ";
@@ -10,12 +11,7 @@ const UseAsExtension = () => {
       <div className="text-white 2xl:w-[700px] xl:w-[600px] lg:w-[527px] w-auto max-lg:text-center max-lg:flex max-lg:flex-col max-lg:items-center">
         <p className="font-bold xl:text-7xl lg:text-[64px] sm:text-[54px] text-[36px] mb-[24px]">
           {titleText1}
-          <span
-            className="inline-block leading-[1.7] bg-[url('/images/project_management_underline.png')] bg-no-repeat bg-[length:100%_30px]
-             2xl:bg-[position:0_88px] xl:bg-[position:0_72px] lg:bg-[position:0_75px] sm:bg-[position:0_64px] bg-[position:0_44px]"
-          >
-            {titleText2}
-          </span>
+          <GoldenUnderline text={titleText2}/>
         </p>
         <p className="font-normal text-lg">{paragraphText}</p>
         <BlueButton text="Let's Go ->" extraCSS="w-[170px] h-[69px] flex items-center justify-center mt-[60px]"/>

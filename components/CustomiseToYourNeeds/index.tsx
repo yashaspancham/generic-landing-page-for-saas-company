@@ -1,4 +1,5 @@
 import BlueButton from "../blueButton";
+import GoldenUnderline from "../GoldenUnderline";
 
 const CustomiseToYourNeeds = () => {
   const titleText1 = "Customise it to ";
@@ -12,15 +13,13 @@ const CustomiseToYourNeeds = () => {
       <div className="2xl:w-[669px] xl:w-[646px] lg:w-[494px] w-auto max-lg:flex max-lg:flex-col max-lg:items-center max-lg:text-center max-lg:mt-[60px]">
         <p className="font-bold xl:text-7xl lg:text-[64px] sm:text-[54px] text-[40px]">
           {titleText1}
-          <span
-            className="inline-block leading-[1.7] bg-[url('/images/project_management_underline.png')] bg-no-repeat bg-[length:100%_30px]
-             2xl:bg-[position:0_88px] xl:bg-[position:0_72px] lg:bg-[position:0_75px] sm:bg-[position:0_64px] bg-[position:0_44px]"
-          >
-            {titleText2}
-          </span>
+          <GoldenUnderline text={titleText2} />
         </p>
         <p className="font-normal text-lg mt-[24px]">{paragraphText1}</p>
-        <BlueButton text="Let's Go ->" extraCSS="mt-[32px]" />
+        <BlueButton
+          text="Let's Go ->"
+          extraCSS="mt-[32px] w-[171px] h-[63px] flex items-center justify-center"
+        />
       </div>
     </div>
   );
