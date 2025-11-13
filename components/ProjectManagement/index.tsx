@@ -37,7 +37,9 @@ const ProjectManagement = () => {
             extraCSS=" w-[200px] h-[70px] sm:w-[190px] sm:h-[59px] lg:w-[201px] lg:h-[63px] flex items-center justify-center mt-[60px] max-lg:self-center"
           />
         </div>
-        <div className="bg-[#C4DEFD] max-lg:mt-[60px] 2xl:w-[748px] 2xl:h-[547px] lg:w-[527.74px] lg:h-[320px] sm:w-[561px] sm:h-[349px] w-[286px] h-[177px]" />
+        <div className="bg-[#C4DEFD] max-lg:mt-[60px] 2xl:w-[748px] 2xl:h-[547px] lg:w-[527.74px] lg:h-[320px] sm:w-[561px] sm:h-[349px] w-[286px] h-[177px]" >
+          <img src={"/images/puppies/p0.avif"} alt="puppieImages" className="w-full h-full object-cover"/>
+        </div>
       </div>
     </div>
   );

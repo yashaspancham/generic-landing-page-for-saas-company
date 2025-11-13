@@ -15,7 +15,9 @@ const BannerSection = () => {
 
         <BlueButton text={"Try Whitepace free ->"} extraCSS="mt-[60px] w-[222px] h-[63px] flex items-center justify-center" />
       </div>
-      <div className="bg-[#C4DEFD] 2xl:w-[824px] 2xl:h-[549px] xl:w-[685px] xl:h-[456px] lg:w-[526px] lg:h-[350.45px] sm:w-[551px] sm:h-[367px] w-[286px] h-[191px] mt-[100px]" />
+      <div className="bg-[#C4DEFD] 2xl:w-[824px] 2xl:h-[549px] xl:w-[685px] xl:h-[456px] lg:w-[526px] lg:h-[350.45px] sm:w-[551px] sm:h-[367px] w-[286px] h-[191px] mt-[100px]" >
+        <img src={"/images/puppies/p3.avif"} alt="puppieImages" className="w-full h-full object-cover"/>
+      </div>
     </div>
   );
 };

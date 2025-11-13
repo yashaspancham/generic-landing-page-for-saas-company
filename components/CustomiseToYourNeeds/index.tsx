@@ -8,7 +8,13 @@ const CustomiseToYourNeeds = () => {
     "Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.";
   return (
     <div className="my-[140px] flex items-center justify-evenly max-lg:flex-col px-[16px]">
-      <div className="bg-[#C4DEFD] 2xl:w-[714px] 2xl:h-[532px] xl:w-[670px] xl:h-[500px] sm:w-[534px] sm:h-[400px] w-[288px] h-[214px]" />
+      <div className="bg-[#C4DEFD] 2xl:w-[714px] 2xl:h-[532px] xl:w-[670px] xl:h-[500px] sm:w-[534px] sm:h-[400px] w-[288px] h-[214px]">
+        <img
+          src={"/images/puppies/p2.avif"}
+          alt="puppieImages"
+          className="w-full h-full object-cover"
+        />
+      </div>
 
       <div className="2xl:w-[669px] xl:w-[646px] lg:w-[494px] w-auto max-lg:flex max-lg:flex-col max-lg:items-center max-lg:text-center max-lg:mt-[60px]">
         <p className="font-bold xl:text-7xl lg:text-[64px] sm:text-[54px] text-[40px]">
