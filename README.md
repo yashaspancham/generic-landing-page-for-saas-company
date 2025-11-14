@@ -2,6 +2,8 @@
 
 A pixel-perfect landing page built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
+**Read this-[https://medium.com/@yashaspancham/generic-saas-landing-page-3dbb3906340a?postPublishedType=repub]**
+
 ## 🧰 Tech Stack
 - **Framework:** Next.js  
 - **Language:** TypeScript  
